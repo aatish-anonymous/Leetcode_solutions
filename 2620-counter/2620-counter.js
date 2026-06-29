@@ -3,8 +3,10 @@
  * @return {Function} counter
  */
 var createCounter = function(n) {
+    //we incilize n input inside counter 
     let counter = n;
     return function() {
+        //then we  increment it with each function call 
         return counter++ ;
     };
 };
