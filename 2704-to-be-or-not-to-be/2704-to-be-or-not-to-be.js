@@ -4,24 +4,25 @@
  */
 var expect = function(val) {
    return {
-       toBe : function(num) {
-          if (num===val){
-            return true
-          }else{
-           throw new Error("Not Equal")
-          }
+    toBe(diffVal){
+        if(val === diffVal){
+            return true;
+        }else{
+            throw new Error("Not Equal")
+        }
     },
-     notToBe : function(num) {
-       if(num!==val){
-        return true;
-       }else{
-        throw new Error("Equal")
-       }
-     }
+    notToBe(diffVal){
+       if(val !== diffVal){
+            return true;
+        }else{
+            throw new Error("Equal")
+        }  
+    }
    }
+    
 };
 
-
-//  expect(5).toBe(5); // true
-//  expect(5).notToBe(5); // throws "Equal"
- 
+/**
+ * expect(5).toBe(5); // true
+ * expect(5).notToBe(5); // throws "Equal"
+ */
