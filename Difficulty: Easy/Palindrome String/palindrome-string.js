@@ -5,12 +5,16 @@
 class Solution {
     isPalindrome(s) {
         // code here
-        let reverse = s.split('').reverse().join('');
-        
-        if(reverse === s ) {
-            return true;
-        }else{
-            return false ;
-        }
+       let word  = s;
+       let revStr = '';
+       
+       for(let i=s.length-1; i>=0; i--){
+          revStr += s[i];
+       }
+       if(revStr === word){
+           return true;
+       }else{
+           return false;
+       }
     }
 }
