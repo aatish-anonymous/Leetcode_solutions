@@ -7,4 +7,4 @@ Explanation: </strong>For array [10, 8, 30, 4, 5], the element to be searched is
 </span></pre>
 <pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [10, 8, 30], x = 6<br><strong>Output: </strong>-1<strong>
 Explanation: </strong>The element to be searched is 6 and it is not present, so we return -1.</span></pre>
-<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 10<sup>6</sup><br>0 ≤ x ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Algorithms</code>&nbsp;
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ arr.size ≤ 10<sup>6</sup><br>0 ≤ arr[i] ≤ 10<sup>6</sup><br>0 ≤ x ≤ 10<sup>5</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;
